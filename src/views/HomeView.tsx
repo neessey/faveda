@@ -218,7 +218,7 @@ export const HomeView: React.FC = () => {
                 {/* Arched Window Image Container */}
                 <div className="w-full relative aspect-[3/4] rounded-t-[160px] rounded-b-2xl overflow-hidden bg-[#D8E2D2] shadow-md border border-[#C5D4BD]/60 transition-transform duration-300 group-hover:-translate-y-1">
                   <img
-                    src={prod.images[0] || '/assets/aistudio/image_84890492.png'}
+                    src= '/assets/product_tisane_digestive_1794416169202.jpg'
                     alt={prod.name}
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
@@ -328,7 +328,7 @@ export const HomeView: React.FC = () => {
                     className="group/photo relative block w-10 h-10 rounded-full overflow-hidden border border-[#D5CBBF] bg-[#F0EBE1] hover:opacity-95 transition-all"
                     aria-label={`Agrandir la photo de ${rev.customerName}`}
                   >
-                    <img
+                    <img 
                       src={rev.customerPhoto}
                       alt={`Photo de ${rev.customerName}`}
                       className="w-full h-full object-cover group-hover/photo:scale-105 transition-transform duration-300"
