@@ -134,9 +134,7 @@ export const AdminView: React.FC = () => {
                 placeholder="Entrez votre mot de passe..."
                 className="w-full px-3.5 py-3 bg-white border border-[#D5CBBF] rounded-xl text-xs text-[#142318] focus:outline-none focus:ring-2 focus:ring-[#1E3324]/20"
               />
-              <p className="text-[11px] text-[#738475] mt-1.5">
-                (Mot de passe par défaut : <code className="bg-[#EBE2D5] px-1 rounded font-mono">faveda2026</code> ou <code className="bg-[#EBE2D5] px-1 rounded font-mono">admin</code>)
-              </p>
+             
             </div>
 
             <button

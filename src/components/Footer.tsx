@@ -65,7 +65,14 @@ export const Footer: React.FC = () => {
         {/* Brand Column (5 cols) */}
         <div className="md:col-span-5 space-y-4">
           <div className="flex items-center gap-3">
-            <img src="/assets/logo.png" alt="logo" className="w-12 h-12 rounded-3xl object-contain" />
+            <button
+              type="button"
+              onClick={() => navigateTo('admin')}
+              aria-label="Accéder à l’administration"
+              className="shrink-0 rounded-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E7D6C0]"
+            >
+              <img src="/assets/logo.png" alt="" className="w-12 h-12 rounded-3xl object-contain" />
+            </button>
             <div>
               <span className="font-serif text-2xl font-bold tracking-wider text-[#FBF9F5]">
                 {settings.brandName}
@@ -106,7 +113,7 @@ export const Footer: React.FC = () => {
                 onClick={() => navigateTo('reviews')}
                 className="hover:text-white transition-colors"
               >
-                Avis clientes & témoignages
+                Avis clientes 
               </button>
             </li>
             <li>
@@ -114,7 +121,7 @@ export const Footer: React.FC = () => {
                 onClick={() => navigateTo('tracking')}
                 className="hover:text-white transition-colors"
               >
-                Suivre mon colis en ligne
+                Suivre mon colis 
               </button>
             </li>
             <li>
@@ -125,14 +132,7 @@ export const Footer: React.FC = () => {
                 Espace client
               </button>
             </li>
-            <li>
-              <button
-                onClick={() => navigateTo('admin')}
-                className="hover:text-white transition-colors"
-              >
-                Espace administration
-              </button>
-            </li>
+            
           </ul>
         </div>
 
@@ -174,7 +174,7 @@ export const Footer: React.FC = () => {
 
       {/* Bottom Bar: Copyright & Payment icons */}
       <div className="border-t border-[#233829] py-6">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#829685]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-[#829685]">
           <p>
             © {new Date().getFullYear()} {settings.brandName}. Tous droits réservés. Boutique officielle en ligne.
           </p>
