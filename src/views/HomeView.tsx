@@ -382,9 +382,7 @@ export const HomeView: React.FC = () => {
       {/* 6. NEWSLETTER SUBSCRIPTION (Minimalist Botanical Card) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-[#FAF7F2] border border-[#E8E0D2] rounded-3xl p-8 sm:p-12 text-center max-w-3xl mx-auto">
-          <span className="text-[11px] font-semibold tracking-[0.2em] uppercase text-[#35533B]">
-            Lettre Botanique
-          </span>
+          
           <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#142318] mt-1 mb-2">
             Restez informée de nos arrivages & conseils
           </h2>
