@@ -1,0 +1,6 @@
+{
+  "name": "FAVEDA - Tisanes Traditionnelles & Bien-être Naturel",
+  "description": "Boutique officielle FAVEDA : soins traditionnels à base de plantes, bien-être digestif, prise de poids naturelle et gestion du métabolisme. Commandez en ligne avec paiement sécurisé ou à la livraison.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
